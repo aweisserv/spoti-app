@@ -1,0 +1,23 @@
+
+<div class="card-columns m-5 animated fadeIn">
+
+    <div *ngFor="let item of items" class="card">
+      <img [src]="item.images | noimage" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"> {{ item.name }}</h5>
+        <p class="card-text">
+            <span *ngFor="let artista of item.artists" class="badge badge-pill badge-dark">
+                {{ artista.name }}  
+            </span>
+            <!--Género(s) de música perteneciente(s) al artista-->
+            <span *ngFor="let genre of item.genres" class="badge badge-pill badge-secondary">
+                {{ genre }}  
+            </span>
+            <!--Popularity-->
+            <span *ngIf="item.popularity" class="badge badge-pill badge-danger"> {{ item.popularity }} </span>
+
+        </p>
+      </div>
+    </div>
+ 
+</div>
