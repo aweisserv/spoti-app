@@ -45,7 +45,7 @@ export class ArtistaComponent implements OnInit {
 
   getTopTracks( id: string) {
 
-  //  this.loadingTopTracks = true;
+  this.loadingTopTracks = true;
 
   //La nombre de la variable que va dentro de .subscribe puede ser cualquiera
     this.spotify.getTopTracks( id )
@@ -53,7 +53,7 @@ export class ArtistaComponent implements OnInit {
               console.log(topTracks);
               this.topTracks = topTracks;
 
-            //  this.loadingTopTracks = false;
+              this.loadingTopTracks = false;
             });
   }
 
