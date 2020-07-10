@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { HttpClient, HttpHeaders, HttpHandler } from '@angular/common/http';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 
 import { map } from 'rxjs/operators';
 
@@ -18,7 +18,7 @@ export class SpotifyService {
       const url = `https://api.spotify.com/v1/${ query }`;
 
       const headers = new HttpHeaders({
-        'Authorization': 'Bearer BQAif38pwOuooKy6RH2QIkeUPvUIg7vahG4MLNf4A2aPXrVFgtUeGx0vyLU4JcR_sEkgCW0LRikij0vXhvs'
+        'Authorization': 'Bearer BQCgUz4HzRAqZ-onb2QB06DMvvqcHSm1-exRS5527glqfDCElU6MMwQSOAoYqBz_JyML0B7AOnKtAVEd_qg'
       });
 
       return this.http.get( url, { headers });

@@ -12,6 +12,7 @@ import { NavbarComponent } from './components/shared/navbar/navbar.component';
 import { TarjetasComponent } from './components/tarjetas/tarjetas.component';
 import { LoadingComponent } from './components/shared/loading/loading.component';
 import { ErrorComponent } from './components/shared/error/error.component';
+import { AboutComponent } from './components/about/about.component';
 
 // Importar rutas
 import { ROUTES } from './app.routes';
@@ -26,6 +27,7 @@ import { DomseguroPipe } from './pipes/domseguro.pipe';
 
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -33,6 +35,7 @@ import { DomseguroPipe } from './pipes/domseguro.pipe';
     SearchComponent,
     ArtistaComponent,
     NavbarComponent,
+    AboutComponent,
     NoimagePipe,
     DomseguroPipe,
     TarjetasComponent,

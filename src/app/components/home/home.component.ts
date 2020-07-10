@@ -25,12 +25,11 @@ export class HomeComponent implements OnInit {
         .subscribe( ( data:any ) => {
           this.nuevasCanciones = data; 
           this.loading = false;
-        }, ( errorServicio )=> {
+        }, ( errorServicio ) => {
 
           this.loading = false;
-          this.error = true;;
-          console.log( errorServicio );
-                  
+          this.error = true;
+          this.mensajeError = errorServicio.error.error.message;        
         });
 
   }
