@@ -24,11 +24,14 @@ Datos técnicos:
   #### Capturas:
   
 ![Captura1](https://user-images.githubusercontent.com/19677373/87847491-bed55600-c8a6-11ea-9cfb-7cc616a16755.PNG)
+
 ![Captura2](https://user-images.githubusercontent.com/19677373/87847493-c137b000-c8a6-11ea-9fe6-f33f8e5fd0ac.PNG)
-![Captura3](https://user-images.githubusercontent.com/19677373/87847494-c268dd00-c8a6-11ea-9e01-6d8c1a8b3d63.PNG)
+
 ![Captura4](https://user-images.githubusercontent.com/19677373/87847497-c3017380-c8a6-11ea-92e7-4bc05dbb8157.PNG)
 
+![Captura3](https://user-images.githubusercontent.com/19677373/87847494-c268dd00-c8a6-11ea-9e01-6d8c1a8b3d63.PNG)
 
+----------
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.4.
 
