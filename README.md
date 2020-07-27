@@ -7,7 +7,6 @@
 
 Descripción general:
 
-  - Diseño minimalista
   - Página principal con los últimos 20 lanzamientos musicales en Spotify
   - Pestaña "Search" con buscador dinámico que permite encontrar artistas por nombre
   - Página del artista dedicada con una lista de lanzamientos más populares, enlace directo al artista en Spotify y audio-demo de cada uno.
@@ -18,8 +17,7 @@ Datos técnicos:
   - Creada con Angular 9.1.4 y Bootstrap 4.5
   - Uso de componentes, rutas, servicios, pipes y observables
   - Consulta la API de Spotify para desarrolladores
-  - Uso de spinners (loader)
-  - Transiciones con CSS
+  - Uso de spinners (loader) y animaciones con CSS
   
   #### Capturas:
   
@@ -34,6 +32,19 @@ Datos técnicos:
 ----------
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.4.
+
+## QuickStart
+
+- Clone the repo
+- Install node package manager (npm)
+- Install Angular > npm install -g @angular/cli
+- Navigate with terminal to the cloned project folder > cd spoti-app
+- Run Angular > ng serve --o (This process might take a few minutes depending on your hardware)
+- When the previous step is done, a new browser window will open with the App running
+
+## WARNING:
+
+-This APP needs a token given by Spotify in order to work (Contact the administrator with the given mail at the start of this page.)
 
 ## Development server
 
