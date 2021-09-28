@@ -1,5 +1,6 @@
 # Spotiapp 
 ## Aplicación que muestra los últimos lanzamientos de música en Spotify y un buscador de artistas por nombre.
+
 | Allan Weisser Verdessi
 | a.weisser.v@gmail.com
 
@@ -23,7 +24,7 @@ Datos técnicos:
   - Creada con Angular 9.1.4 y Bootstrap 4.5
   - Uso de componentes, rutas, servicios, pipes y observables
   - Consulta la API de Spotify para desarrolladores
-  - Uso de spinners (loader) y animaciones con CSS
+  - Animaciones con CSS y Animated.css
   
   
   
